@@ -1,5 +1,3 @@
-# studio-ninty-site
-<!--my website for work-->
 <!doctype html>
 <html>
 
@@ -14,6 +12,23 @@
       margin-left: 10%;
       margin-right: 10%;
     }
+/* Double check why alignment is off
+    .intro-area {
+      display: flex;
+    }
+
+    .about-area {
+      display: flex;
+    }
+
+    .portfolio {
+      display: flex;
+    }
+
+    .newsletter-area {
+      display: flex;
+    }*/
+
   </style>
 </head>
 <header></header>
@@ -27,12 +42,16 @@
   </ul>
 </nav>
 </body>
-<h1 id="#introduction">Lorem ipsum dolor sit.</h1>
-<main>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non tortor ligula. Maecenas fringilla pulvinar
-    lorem. Mauris vel velit massa. Aenean id orci molestie, vehicula enim sed, venenatis velit. Etiam vulputate est
-    ultrices elementum ultricies. Praesent sed tellus sollicitudin, bibendum nisl a, varius lacus. Mauris gravida justo
-    felis, nec ultrices sapien venenatis a.</p>
+<!-- <div class="intro-area"> </div>-->
+  <h1 id="#introduction">Lorem ipsum dolor sit.</h1>
+  <main>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non tortor ligula. Maecenas fringilla pulvinar
+      lorem. Mauris vel velit massa. Aenean id orci molestie, vehicula enim sed, venenatis velit. Etiam vulputate est
+      ultrices elementum ultricies. Praesent sed tellus sollicitudin, bibendum nisl a, varius lacus. Mauris gravida
+      justo
+      felis, nec ultrices sapien venenatis a.</p>
+
+<!--<div class="about-area"> </div>-->
   <h2 id="#about-section">Lorem ipsum dolor sit.</h2>
   <img
     src="C://Users/Rebekah Quinn/Documents/Studio Ninty/Studio Ninty Online/Images/photo-1509395062183-67c5ad6faff9.jpg"
@@ -41,6 +60,8 @@
   <p>Curabitur rutrum dui quis mauris laoreet malesuada. In a enim erat. Fusce
     laoreet, tortor sit amet aliquam finibus, tellus purus mollis justo, in posuere sapien metus at massa. Nullam
     malesuada arcu consequat, aliquet sapien nec, interdum lectus. Duis imperdiet est in euismod aliquet.</p>
+
+<!--<div class="portfolio-area"></div>-->
   <h3 id="portfolio-section">Lorem ipsum dolor sit.</h3>
   <img
     src="C://Users/Rebekah Quinn/Documents/Studio Ninty/Studio Ninty Online/Images/laika-notebooks-l24Db2ApdFM-unsplash.jpg"
@@ -49,6 +70,8 @@
     purus, sed molestie lectus. Morbi gravida bibendum massa sed facilisis. Nulla tempor, sapien vel auctor blandit,
     ipsum libero ultricies ante, consectetur vulputate nunc enim eget risus. Aliquam at molestie erat.
   </p>
+
+<!--<div class="newsletter-area"></div>-->
   <h4 id="newsletter-section">Lorem ipsum dolor sit.</h4>
   <img
     src="C://Users/Rebekah Quinn/Documents/Studio Ninty/Studio Ninty Online/Images/erica-steeves-G_lwAp0TF38-unsplash.jpg"
@@ -74,7 +97,8 @@
         <input type="checkbox" required name="tcs-gdpr-yes"> Agree to <a href="#">T&Cs</a>
         <!--get t&cs/gdpr for this link above-->
       </label>Ut a gravida purus, sed molestie lectus.</p>
-  </form>
+
+</form>
 </main>
 <footer>
 
